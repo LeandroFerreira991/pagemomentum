@@ -1,0 +1,78 @@
+.service{
+  width: 100%;
+	padding: 100px 0px;
+	background-color: #000;
+}
+#servicos a.destaque {
+  display: block;
+  background: #191919;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover {
+
+  background: #191919;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+
+
+#servicos p {
+  color: white;
+}
+
+#servicos a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+  max-height: 160px;
+}
+
+#servicos i{
+	font-size: 60px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #34BF98;}
+
+  h5{
+    color: #34BF98;
+  }  
+
+  .block{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+  }
+
+
+
+#depoimentos .depoimento {
+  background-color: var(--light);
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+}
+
+#depoimentos .depoimento .quote {
+  max-width: 35px;
+}
+
+#depoimentos .depoimento .name {
+  color: #aaaaaa;
+}
+
+#depoimentos .depoimento .name span {
+  color: #000;
+  font-weight: 700;
+}
+
